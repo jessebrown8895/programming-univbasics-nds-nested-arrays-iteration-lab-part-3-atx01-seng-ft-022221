@@ -1,12 +1,12 @@
 require "pry" 
 def join_nested_strings(src)
-  all_strings = 0 
+  all_strings == " "
   row_index = 0 
   while row_index < src.count do 
   element_index = 0 
   while element_index < src[row_index].count do 
    if src[row_index][element_index].class == String 
-   src[row_index][element_index].join("")
+   src[row_index][element_index].join 
   end 
     element_index += 1 
 end 
