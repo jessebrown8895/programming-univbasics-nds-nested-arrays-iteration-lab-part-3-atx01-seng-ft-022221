@@ -11,7 +11,7 @@ def join_nested_strings(src)
     element_index += 1 
 end 
 row_index += 1 
-p all_strings.join
+all_strings
 end
 end 
 
